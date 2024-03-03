@@ -18,27 +18,30 @@ html, body {
 }
 
 .todo-container {
-  width: 80%;
+  width: 70%;
   height: 60%;
   background-color: #0b1174;
   border-radius: 20px;
   color: #fff;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .input-container {
   display: flex;
   justify-content: space-between;
+  padding: 0 200px;
 }
 
 .input-container input {
-  width: calc(100% - 80px);
+  font-size: 20px;
+  width: calc(100% - 100px);
   height: 30px;
   outline-color: #fff;
 }
 
 .input-container button {
+  font-size: 20px;
   height: 30px;
   border: none;
   cursor: pointer;
@@ -53,10 +56,12 @@ html, body {
 .todo-list-item {
   display: flex;
   justify-content: space-between;
+  padding: 0 200px;
   margin-bottom: 10px;
 }
 
 .todo-list-item button {
+  font-size: 20px;
   background-color: yellow;
   border-radius: 5px;
   border: none;
