@@ -30,7 +30,7 @@ html, body {
 .input-container {
   display: flex;
   justify-content: space-between;
-  padding: 0 200px;
+  padding: 0 150px;
 }
 
 .input-container input {
